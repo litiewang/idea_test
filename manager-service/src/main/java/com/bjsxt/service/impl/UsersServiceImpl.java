@@ -14,6 +14,7 @@ public class UsersServiceImpl implements UsersService {
 
     @Override
     public void addUser(Users users) {
+
         this.usersMapper.insertUser(users);
     }
 }
